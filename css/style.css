@@ -1,0 +1,82 @@
+
+
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.events{
+    width: auto;
+  border: 3px solid black;
+  padding: 50px;
+  margin: 20px;
+  height: auto;
+  text-align: center;
+}
+.content{
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+    
+}
+.pic{
+    border: 2px solid black;
+    width:100px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+    float: left;
+}
+.details::after{
+    display: table;
+    clear: both;
+    align-items: end;
+    margin-top: 50px;
+}
+.circle{
+    height: 70px;  
+width: 50px; 
+border: solid 1px;  
+border-radius: 50%;  
+display: inline-block;
+margin-top: 15px;
+text-align: center;
+font-size: 10px;
+line-height: 60px;
+
+}
+
+#cancel{
+        margin-left: 50px;
+        margin-top: 20px;
+}
+#submit{
+        margin-left: 1000px;
+        margin-bottom: 25px;
+}
+#name,
+#email,
+#phoneno,
+#seats,
+#attend{
+    margin-top: 10px;
+    
+}
+label{
+    font-weight: 1000px;
+    margin-left:800px;
+}
+#seats{
+        width: 150px;
+}
+
+@media screen and (min-width:500px){
+    body{
+        margin:1em 2em;
+    }
+}
+    
